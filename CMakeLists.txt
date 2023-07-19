@@ -3,4 +3,4 @@ project(boj)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(AC segtree/5419.cpp)
+add_executable(AC segtree/2336.cpp)
