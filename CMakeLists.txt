@@ -3,4 +3,4 @@ project(boj)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(AC segtree/2336.cpp)
+add_executable(AC easy/16204.cpp dynamic_programming/easy/15990.cpp)
