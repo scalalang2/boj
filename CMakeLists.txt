@@ -3,4 +3,4 @@ project(boj)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(AC dynamic_programming/medium/13252.cpp)
+add_executable(AC dynamic_programming/easy/2491.cpp)
