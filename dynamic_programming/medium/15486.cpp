@@ -15,6 +15,21 @@ int t[1500001];
 int p[1500001];
 vector<int> dp(1500001, 0);
 
+// rotate 90 degree
+void rotate(vector<vector<int>> &image, int n) {
+    vector<vector<int>> tmp(n, vector<int>(n, 0));
+    for(int i = 0; i < n; i++) {
+        for(int j = 0; j < n; j++) {
+            tmp[j][n-i-1] = image[i][j];
+        }
+    }
+    image = tmp;
+}
+
+void horizontal_flip(vector<vector<int>> &image, int n) {
+
+}
+
 /*
  * 상담할 때 t일이 걸리는데 비용을 p만큼 준다.
  * 어떻게 보면 클래식한 배낭 문제랑 비슷 비슷하네
